@@ -1,4 +1,4 @@
-package com.example.cat;
+package com.example.android_project;
 
 import android.content.Context;
 
