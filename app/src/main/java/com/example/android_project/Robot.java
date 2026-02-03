@@ -1,6 +1,8 @@
 package com.example.android_project;
 
-public class Robot {
+import java.io.Serializable;
+
+public class Robot implements Serializable {
     String teamName;
     int teamNumber;
     double averageScore;
