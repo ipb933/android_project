@@ -7,6 +7,9 @@ public class Robot implements Serializable {
     int teamNumber;
     double averageScore;
 
+    public Robot() {}
+
+
     public Robot(String teamName, int teamNumber, double averageScore) {
         this.teamName = teamName;
         this.teamNumber = teamNumber;

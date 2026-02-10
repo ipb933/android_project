@@ -7,6 +7,8 @@ public class RobotAtGame implements Serializable {
     int gameNumber;
     int robotScore;
 
+    public RobotAtGame() {}
+
     public RobotAtGame(int robotNumber, int gameNumber, int robotScore) {
         this.robotNumber = robotNumber;
         this.gameNumber = gameNumber;

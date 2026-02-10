@@ -22,12 +22,14 @@ public class Home extends AppCompatActivity implements View.OnClickListener{
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
+        robotsAdapter = new RobotsAtGameAdapter(this, 0, 0, robotsAtGame);
         btnAdd = (Button) findViewById(R.id.btnAdd);
         btnAdd.setOnClickListener(this);
         btnShowRobots = (Button) findViewById(R.id.btnShowRobots);
         btnShowRobots.setOnClickListener(this);
         btnShowGames = (Button) findViewById(R.id.btnShowGames);
         btnShowGames.setOnClickListener(this);
+
     }
 
     @Override
